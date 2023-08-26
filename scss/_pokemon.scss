@@ -1,0 +1,27 @@
+.cha{
+    background-color: rgb(252, 240, 216);
+}
+.squi{
+    background-color:  rgb(225, 255, 255);
+}
+.bul{
+    background-color:  rgb(227, 255, 225);
+}
+.poke{
+    border-radius: 25px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
+}
+.pokemon{
+    height: 200px;
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.pokemon:hover{
+    height: 220px;
+}

@@ -1,0 +1,203 @@
+header {
+  padding: 10px;
+  position: sticky;
+  background-color: rgb(211, 211, 211);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+li {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.indi:link {
+  color: black;
+}
+
+.indi:visited {
+  color: black;
+}
+
+.indi:hover {
+  color: rgb(255, 0, 0);
+}
+
+.charmander:link {
+  color: black;
+}
+
+.charmander:visited {
+  color: black;
+}
+
+.charmander:hover {
+  color: rgb(255, 162, 0);
+}
+
+.squirtle:link {
+  color: black;
+}
+
+.squirtle:visited {
+  color: black;
+}
+
+.squirtle:hover {
+  color: rgb(0, 208, 255);
+}
+
+.bulbasaur:link {
+  color: black;
+}
+
+.bulbasaur:visited {
+  color: black;
+}
+
+.bulbasaur:hover {
+  color: rgb(19, 157, 9);
+}
+
+* {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.atila {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+
+h2 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.back {
+  width: 100%;
+}
+
+.pkm {
+  background-color: rgb(94, 94, 94);
+  color: aliceblue;
+  font-size: 3rem;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 30px;
+}
+
+.ball {
+  height: 2rem;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cha {
+  background-color: rgb(252, 240, 216);
+}
+
+.squi {
+  background-color: rgb(225, 255, 255);
+}
+
+.bul {
+  background-color: rgb(227, 255, 225);
+}
+
+.poke {
+  border-radius: 25px;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 300px;
+}
+
+.pokemon {
+  height: 200px;
+  padding-top: 50px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.pokemon:hover {
+  height: 220px;
+}
+
+@media (max-width: 1024px) {
+  h1 {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  li {
+    font-size: 1rem;
+  }
+  .pkm {
+    font-size: 2rem;
+  }
+  .ball {
+    height: 1.2rem;
+  }
+  .poke {
+    height: 200px;
+  }
+  .pokemon {
+    height: 120px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .pokemon:hover {
+    height: 140px;
+  }
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 0.8rem;
+  }
+  li {
+    font-size: 0.7rem;
+  }
+  .pkm {
+    font-size: 1.4rem;
+  }
+  .ball {
+    height: 0.6rem;
+  }
+  .poke {
+    height: 120px;
+  }
+  .pokemon {
+    height: 70px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .pokemon:hover {
+    height: 90px;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */
